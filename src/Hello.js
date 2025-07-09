@@ -1,3 +1,10 @@
 export default function Hello() {
-    return <p>Hello World!</p>;
+    return <p
+        style={{
+            color: 'blue',
+            fontSize: '20px',
+            textAlign: 'center'
+        }}>
+        Hello World!
+        </p>;
 }
