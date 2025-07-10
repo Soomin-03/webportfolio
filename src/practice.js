@@ -22,4 +22,10 @@ export default function printMyself() {
             protfolio
         </button>
     }
+    return (
+        <div>
+            <showMyself/>
+            <showMyportfolio/>
+        </div>
+    )
 }
