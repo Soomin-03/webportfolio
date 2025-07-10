@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import printName from './practice';
+import printMyself from './practice';
 
 function App() {
   return (
