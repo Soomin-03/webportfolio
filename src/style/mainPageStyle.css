@@ -8,10 +8,15 @@
     background-color: #EEEEEE;
 }
 
+.page-section {
+    display: flex;
+    flex-direction: column;
+    padding: 3vw;
+    gap: 2vw;
+}
+
 .tool-section{
     display: flex;
-    padding-top : 2vw;
-    padding-left : 1vw;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
@@ -25,39 +30,16 @@
     gap: 5vw;
 }
 
-.section {
+.main-head {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-direction: column;
+    gap: 2vw;
 }
 
-.sub-section {
-    padding-left: 25px;
-    padding-right: 25px;
-    gap : 50px;
+.main-head-info {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-h1 {
-    margin-top :0px;
-    margin-bottom: 0px;
-    padding-bottom: 2vw;
-    color: black;
-    text-align: center;
-}
-
-p {
-    padding-bottom: 2vw;
-    font-size: 1.2em;
-    padding-bottom: 1.5vw;
-    color: black;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-align: center;
+    flex-direction: column;
+    gap: 1vw;
 }
 
 .main-skill{
@@ -82,3 +64,18 @@ p {
     flex-shrink: 0;
 }
 
+.main-page h1 {
+    font-size: 6vw;
+    margin-top :0px;
+    margin-bottom: 0px;
+    color: black;
+    text-align: center;
+}
+
+.main-page p {
+    font-size: 1.2em;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
