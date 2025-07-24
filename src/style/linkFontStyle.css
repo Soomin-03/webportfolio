@@ -1,0 +1,12 @@
+a:link {
+    color: #ffffff;
+    font-size: 70px;
+    text-decoration: none; /* 밑줄 없애기 */
+    font-weight: bold; /* 글자 두껍게 */
+    transition: color 0.3s ease; /* 색상 변경 시 부드러운 전환 효과 */
+}
+
+/* 방문한 링크 */
+a:visited {
+    color: #F0E4D3; /* 방문한 링크 색상 */
+}
