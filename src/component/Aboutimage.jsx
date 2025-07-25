@@ -1,12 +1,12 @@
 import backgroundImage from '../asset/background_img.jpg';
 
-export default function Mainimage() {
+export default function Aboutimage() {
     const circularImageStyle = {
-        width : '30vw',
-        height : '30vw',
+        width : '25vw',
+        height : '25vw',
         borderRadius: '50%',
         objectFit: 'cover',
-        border: 'none',
+        border: '3px solid #FFFFFF',
     }
 
     return (

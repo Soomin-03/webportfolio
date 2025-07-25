@@ -1,5 +1,5 @@
 import Abouthead from "../component/Abouthead";
-import Mainimage from "../component/Mainimage";
+import Aboutimage from "../component/Aboutimage";
 import Aboutprofile from "../component/Aboutprofile";
 import Abouteducation from "../component/Abouteducation";
 import Aboutlicense from "../component/Aboutlicense";
@@ -13,7 +13,7 @@ export default function About() {
             <div className="page-section">
                 <Abouthead/>
                 <div className="about-section">
-                    <Mainimage/>
+                    <Aboutimage/>
                     <div className="about-sub-section">
                         <Aboutprofile/>
                         <Abouteducation/>
